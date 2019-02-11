@@ -13,7 +13,7 @@ func main(){
 	
 	oled.Init()
 
-	oled.WriteString("projetoarduino.com.br", 0 ,2, 1)
+	oled.WriteString("projetoarduino.com.br", 0 ,2, 1) // texto , eixo x, eixo y, tamanho da fonte
 
 
 	//oled.Draw_line(0, 0, 120, 0) 		//Barra horizontal superior
@@ -21,7 +21,7 @@ func main(){
 	//oled.Draw_line(120, 59, 0, 59) 	//Barra inferior horizontal
 	//oled.Draw_line(0, 59, 0, 0); 	 	// Barra esquerda vertical
 
-	// oled.GenIcon(goled.Icon.Cloud, 60, 0)
+	// oled.GenIcon(goled.Icon.Cloud, 60, 0) //Constroi um icone
 
 
 	oled.Display() //Chame essa função toda vez que quiser chamar algo novo
