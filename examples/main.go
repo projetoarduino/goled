@@ -3,7 +3,7 @@ package main
 
 import (
 	"fmt"
-	"goled"
+	"github.com/projetoarduino/goled"
 )
 
 var oled = goled.NewDisplayBuffer(128,64)
